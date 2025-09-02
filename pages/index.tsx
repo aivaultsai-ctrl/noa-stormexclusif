@@ -1,19 +1,12 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black flex flex-col items-center justify-center text-center text-white px-6">
-      <h1 className="text-4xl md:text-6xl font-bold mb-6">
-        🚀 Noa Storm Exclusif
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white">
+      <h1 className="text-4xl font-bold text-pink-500 mb-4">
+        Hello World 👋
       </h1>
-      <p className="text-lg md:text-xl max-w-2xl mb-8">
-        Ontgrendel exclusieve content, behind-the-scenes en wekelijkse drops. 
-        Word vandaag lid en mis niets!
+      <p className="text-lg text-gray-300">
+        Je website draait! 🎉
       </p>
-      <a
-        href="#"
-        className="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
-      >
-        Join Membership
-      </a>
-    </main>
-  )
+    </div>
+  );
 }
